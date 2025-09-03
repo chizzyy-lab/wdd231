@@ -1,0 +1,159 @@
+:root {
+    --primary-color: gray; 
+    --secondary-color: #ca6702; 
+    --accent1-color: black; 
+    --accent2-color: #fdf6ec; 
+    --heading-font: "Merriweather Sans", sans-serif;
+    --body-font: "Roboto", sans-serif;
+} 
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    width: 70%;
+    padding-top: 5rem;
+}
+
+.head nav {
+    padding-top: 3px;
+    margin-left: -25rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--accent1-color);
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    margin-left: .5rem;
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+}
+
+h2 {
+    margin-top: -.5rem;
+}
+
+.secs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section {
+    background-color: var(--accent2-color);
+}
+
+.sec h3 {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.sec p {
+    margin-top: -1rem;
+    padding-top: .5rem;
+    width: 95%;
+    height: 400px;
+    background-color: var(--primary-color);
+}
+
+.sec img {
+    color: gray;
+    height: 400px;
+    margin-left: 12rem;
+    background-color: var(--primary-color);
+}
+
+.sec img::after {
+    background-color: rgba(128, 128, 128, 0.5);
+
+}
+
+.sec3 h3{
+    display: flex;
+    justify-content: center;
+    margin-top: -.2rem;
+    width: 100%;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.course-card {
+  border: 1px solid var(--accent1-color);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  background-color: var(--accent2-color);
+}
+
+.completed {
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+}
+
+.incomplete {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.list2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 1rem;
+    margin-top: -1.5rem;
+}
+
+.list2 h5 {
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--accent1-color);
+}
+
+.sec3 p {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact img {
+    cursor: pointer;
+}
+
+footer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

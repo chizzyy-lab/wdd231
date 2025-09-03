@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home page</title>
+    <meta name="description" content=" Course Home page">
+    <meta name="author" content="Egwuatu C. Precious">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/course.css">
+    <link rel="stylesheet" href="styles/large_course.css">
+</head> 
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="logo" width="100">
+        <h1>CHIZZYY LIMITED</h1>
+    <div class="head">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="chamber.html">Chamber Project</a></li>
+                <li><a href="final.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <h2>Home</h2>
+    <div class="secs">
+        <section class="sec">
+            <h3>About Me</h3>
+            <p>Hello, my name is Chidera, i'm from Nigeria<br>
+                Am currently student of BYU Pathway,<br>
+                currently studing Computer science (Front-End Web developer).
+            </p>
+        </section>
+        <section class="sec">
+            <h3>Student Photo</h3>
+            <img src="images/profile.jpg" alt="student-profile" width="200">
+        </section>
+    </div>
+        <section class="sec3">
+            <h3>Web Certificate Courses</h3>
+            <div class="filter-buttons">
+                <button id="allBtn">All</button>
+                <button id="wddBtn">WDD</button>
+                <button id="cseBtn">CSE</button>
+            </div>
+            <div id="courseContainer"></div>
+            <p id="creditTotal"></p>
+            <div class="list2">
+                <h5>WDD130</h5>
+                <h5>WDD131</h5>
+                <h5>WDD231</h5>
+            </div>
+                <p>The total credits for this course listed above is 6</p>
+                <div class="contact">
+                    <img src="images/linkedin.png" alt="linkedin">
+                    <img src="images/github.png" alt="github">
+                    <img src="images/twitter.webp" alt="twitter">
+                </div>
+        </section>
+    </main>
+<footer>
+    <span id="currentyear"></span>
+    <p>@2025 | Egwuatu Chidera Precious | Nigeria</p>
+    <p id="lastModified">Last Modification 05/06/2025</p>
+</footer>
+ <script src="scripts/date.js" defer></script>
+ <script src="scripts/navigation.js" defer></script>
+ <script src="scripts/course.js" defer></script>
+</body>
+</html>
