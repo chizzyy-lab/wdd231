@@ -44,6 +44,16 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
+.menu-toggle {
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: var(--accent1-color);
+    cursor: pointer;
+    display: none;
+}
+
+
 h2 {
     margin-top: -.5rem;
 }
