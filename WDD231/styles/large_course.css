@@ -25,6 +25,30 @@
     margin: 0.5rem 0;
   }
 
+  .menu-toggle {
+        display: block;
+    }
+
+    #navMenu {
+        display: none;
+        flex-direction: column;
+        background-color: #f9f9f9;
+    }
+
+    #navMenu.active {
+        display: flex;
+    }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+
   .secs {
     grid-template-columns: 1fr;
     gap: 1rem;
